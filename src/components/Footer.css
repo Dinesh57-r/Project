@@ -1,0 +1,86 @@
+/* Footer container styling */
+.footer {
+    background-color: #1a1a1a; /* Dark background */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: auto;
+  }
+  
+  /* Footer content container */
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  /* Grid layout for footer sections */
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* Footer section heading */
+  .footer-heading {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  /* Footer description text */
+  .footer-description {
+    color: #d1d1d1;
+  }
+  
+  /* Footer links container */
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-link {
+    color: #d1d1d1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #3b82f6; /* Primary color on hover */
+  }
+  
+  /* Footer social icons container */
+  .footer-social-icons {
+    display: flex;
+    flex-direction: row;  /* Stack icons vertically */
+    align-items: right;     /* Center icons horizontally */
+    gap: 1rem;               /* Add spacing between the icons */
+    margin-top: 1rem;        /* Space between the heading and the icons */
+  }
+  
+  /* Individual social icon link styling */
+  .footer-social-icon {
+    color: #d1d1d1;
+    transition: color 0.3s ease;
+    
+  }
+  
+  .footer-social-icon:hover {
+    color: #3b82f6; /* Primary color on hover */
+  }
+  
+  /* Footer bottom section */
+  .footer-bottom {
+    border-top: 1px solid #333;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    color: #d1d1d1;
+  }
+  
